@@ -1,6 +1,10 @@
-iterationsLeft = 40
+# Part 1 Solution: 360154 is the length of the result
+# iterationsLeft = 40
+# inputString = "1113122113"
+
+# Part 2 Solution: 5103798 is the length of the result
+iterationsLeft = 50
 inputString = "1113122113"
-#Solution: 360154 is the length of the result
 
 def say(phrase, lastValCount, lastVal):
     phrase = phrase + str(lastValCount) + str(lastVal)
